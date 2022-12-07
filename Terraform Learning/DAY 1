@@ -1,0 +1,16 @@
+# Day 1 - 07-Dec 2022
+
+# TF Installation
+
+    - terraform.io/downloads.html
+    - Select RHEL / Fedora
+
+# TF Installation steps
+
+    sudo yum install -y yum-utils
+    sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+    sudo yum -y install terraform
+
+# First command after installation
+
+    terraform --version
